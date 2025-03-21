@@ -1,0 +1,429 @@
+[Ver. 1.56]
+=====(･ω´･ )====== Switch config backup temp =====(･ω´･ )======
+
+
+
+ter leng 0
+sh run
+sh ver
+sh inv
+sh flash:
+
+sh ip route
+sh vlan b
+
+sh vtp s
+sh vtp p
+
+sh ip int b
+
+sh int transceiver
+sh inter sum
+sh int status
+sh int desc
+
+sh cdp n
+sh cdp n d
+
+sh processes cpu
+sh processes cpu history
+sh log
+sh clock
+sh etherc sum
+sh env all
+show environment st
+sh power inline
+sh etherch summary
+sh switch
+sh lic all
+sh lic
+
+ter no leng 0
+wri
+
+
+
+show tech-support
+
+=====(･ω´･ )====== Switch config backup temp =====(･ω´･ )======
+
+
+
+■■■■■■■■Σ(ﾟωﾟ)■■■■■■■■ WLC config backup temp ■■■■■■■■Σ(ﾟωﾟ)■■■■■■■■
+
+
+
+config paging disable
+show run-config startup-commands
+show ap summary
+grep include tory|SN: "show ap inventory all"
+ show ap cdp neighbors all
+show interface su
+show cdp n
+show cdp neighbors d
+show inventory
+show sysinfo
+show license summary
+show logg
+save config
+y
+config paging enable
+
+
+
+show tech-support
+
+
+■■■■■■■■Σ(ﾟωﾟ)■■■■■■■■ WLC config backup temp ■■■■■■■■Σ(ﾟωﾟ)■■■■■■■■
+
+
+
+--------(◉３◉)-------- EWC config backup temp --------(◉３◉)--------
+
+
+
+ter len 0
+sh run
+sh ver
+sh inv
+sh flash:
+sh ip route
+sh ip int b
+sh inter sum
+show ap summary
+show ap status
+sh ap cdp neighbors
+sh ap cdp neighbors detail
+show ap config general
+show ap config general | include Serial
+show ap ethernet statistics
+sh processes cpu
+sh processes cpu history
+sh log
+sh clock
+sh lic all
+ter no len 0
+wr
+
+
+
+show tech-support
+
+
+--------(◉３◉)-------- EWC config backup temp --------(◉３◉)--------
+
+
+
+
+######(っ・Д・)っ######## Huawai switch backup temp ######(っ・Д・)っ########
+
+
+
+screen-length 0 temporary
+display current-configuration
+display stp b
+display stp
+display interface
+display poe interface
+display lldp n b
+display lldp n
+display ip routing-table
+display device
+display cpu
+display memory
+display device temperature all
+display device fan
+display health
+display configuration recover-result
+display version
+display esn
+display clock
+display stack
+display stack configuration
+display switchover state
+display device manufacture-info
+display logbuffer
+display interface troubleshooting
+screen-length 24 temporary
+save
+y
+
+
+
+display diagnostic-information
+
+
+######(っ・Д・)っ######## Huawai switch backup temp ######(っ・Д・)っ########
+
+
+
+
+^^^^^^ฅ^•ﻌ•^ฅ^^^^^^ Huawei WLC backup template ^^^^^^ฅ^•ﻌ•^ฅ^^^^^^
+
+
+
+screen-length 0 temporary
+display current-configuration
+display ap all
+display ap run-info
+display interface
+display interface brief
+display lldp n b
+display lldp n
+display access-user
+display station
+display device
+display cpu-usage
+display memory-usage
+display device temperature all
+display device fan
+display health
+display configuration recover-result
+display version
+display clock
+display switchover state
+display device manufacture-info
+display logfile buffer
+display diag-logfile buffer
+display interface troubleshooting
+screen-length 24 temporary
+save
+y
+
+
+
+display diagnostic-information
+
+
+^^^^^^ฅ^•ﻌ•^ฅ^^^^^^ Huawei WLC backup template ^^^^^^ฅ^•ﻌ•^ฅ^^^^^^
+
+
+
+
+@@@@@@(〃∀〃)@@@@@@@ Ruijie switch backup temp @@@@@@(〃∀〃)@@@@@@@
+
+
+
+ter leng 0
+show run
+sh ver
+sh ip route
+sh vlan
+show int status
+sh ip int b
+sh int transceiver
+show lldp nei
+show lldp nei d
+show cpu
+show poe powersupply
+show poe interface status
+sh logg
+sh clock
+ter no len
+wri
+
+
+
+@@@@@@(〃∀〃)@@@@@@@ Ruijie switch backup temp @@@@@@(〃∀〃)@@@@@@@
+
+
+
+
+=====ฅ^•ﻌ•^ฅ===== Juniper switch backup temp =====ฅ^•ﻌ•^ฅ===== 
+
+
+
+set cli screen-length 0
+sh configuration | display set | no-more
+sh configuration
+show version
+show chassis hardware detail
+show route
+
+show vlan brief
+
+show interfaces terse
+
+show interfaces diagnostics optics
+show interfaces brief
+show interfaces statistics
+show interfaces descriptions
+
+show lldp neighbors
+show lldp neighbors detail
+
+show chassis routing-engine 
+show log messages
+show system uptime
+show chassis environment
+show chassis environment routing-engine
+show poe interface
+show lacp statistics interfaces
+show virtual-chassis
+
+show poe controller
+show chassis firmware detail
+show chassis power-budget-statistics
+
+
+set cli screen-length 24
+request system configuration rescue save
+request system snapshot
+
+
+
+=====ฅ^•ﻌ•^ฅ===== Juniper switch backup temp =====ฅ^•ﻌ•^ฅ===== 
+
+
+
+
+######(っ・Д・)っ######## H3C switch backup temp ######(っ・Д・)っ########
+
+
+
+screen-length dis
+display current-configuration
+display stp bri
+display stp
+display poe interface
+display lldp n b
+display lldp n
+display ip routing-table
+display device
+display version
+dis device manuinfo
+display log
+save safely
+
+
+
+######(っ・Д・)っ######## H3C switch backup temp ######(っ・Д・)っ########
+
+
+
+
+_____(´_ゝ`)_____ ATI switch backup temp _____(´_ゝ`)_____
+
+
+
+ter len 0
+show run
+show lldp nei
+show lldp nei d
+show vlan b
+show ip int b
+show switch
+show system
+show log
+ter no len 0
+wr
+
+
+
+_____(´_ゝ`)_____ ATI switch backup temp _____(´_ゝ`)_____
+
+
+
+
+
+&&&&&&&&&σ`∀´)σ&&&&&&&&&&&& Cisco Router backup temp &&&&&&&&&σ`∀´)σ&&&&&&&&&&&&
+
+
+
+ter leng 0
+sh run
+sh ver
+sh inv
+sh ip route
+show ip ospf
+show ip ospf neighbor
+sh ip int b
+sh int
+sh vlan-switch
+sh ccm-manager
+sh isdn status
+sh license right-to-use
+sh license right-to-use summary
+sh license right-to-use detail
+sh cdp n
+sh cdp n d
+sh env
+sh clock
+sh log
+ter no leng 0
+wri
+
+
+
+&&&&&&&&&σ`∀´)σ&&&&&&&&&&&& Cisco Router backup temp &&&&&&&&&σ`∀´)σ&&&&&&&&&&&&
+
+
+
+********_(┐ ◟;ﾟдﾟ)ノ******** Fortigate backup temp ********_(┐ ◟;ﾟдﾟ)ノ********
+
+
+
+config system console
+ set output standard
+ end
+ show full-configuration
+config system console
+ set output more
+end
+execute cfg save
+
+
+
+********_(┐ ◟;ﾟдﾟ)ノ******** Fortigate backup temp ********_(┐ ◟;ﾟдﾟ)ノ********
+
+
+
+
+///////////(๑•ั็ω•็ั๑)/////////// ASA backup temp ///////////(๑•ั็ω•็ั๑)///////////
+
+
+
+terminal pager 0
+show running-config
+terminal pager 24
+wr
+
+
+
+///////////(๑•ั็ω•็ั๑)/////////// ASA backup temp ///////////(๑•ั็ω•็ั๑)///////////
+
+
+
+%%%%%%%_(:3 」∠ )_%%%%%%%%%% Regular Expression %%%%%%%_(:3 」∠ )_%%%%%%%%%%
+
+
+WebSite: https://regexr.com/
+(?<=\bSN:\s)(\w+)
+
+
+%%%%%%%_(:3 」∠ )_%%%%%%%%%% Regular Expression %%%%%%%_(:3 」∠ )_%%%%%%%%%%
+
+
+wifi controller license
+sh license right-to-use
+sh license right-to-use summary
+sh license right-to-use detail
+
+show wireless mobility ap-list
+show wireless mobility summary
+
+VSS command
+Sh license image levels
+Sh switch virtual
+Sh switch virtual role
+Sh switch virtual link
+Sh switch virtual link port-channels
+Sh switch virtual slot-map
+Sh clock
+Sh redundancy status
+Sh issu status detail
+
+##########################
+#	Ver. 1.56           #
+# By Jack (*´Д`)つ))´∀`) #
+##########################
